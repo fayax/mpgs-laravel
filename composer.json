@@ -1,0 +1,24 @@
+{
+    "name": "yourname/mpgs-laravel",
+    "description": "Laravel integration for MPGS payment gateway",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MpgsLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MpgsLaravel\\MpgsServiceProvider"
+            ],
+            "aliases": {
+                "Mpgs": "MpgsLaravel\\Facades\\Mpgs"
+            }
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}

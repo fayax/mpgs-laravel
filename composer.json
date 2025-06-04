@@ -1,5 +1,5 @@
 {
-    "name": "yourname/mpgs-laravel",
+    "name": "fayax/mpgs-laravel",
     "description": "Laravel integration for MPGS payment gateway",
     "type": "library",
     "autoload": {

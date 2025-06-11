@@ -18,7 +18,7 @@ class MpgsServiceProvider extends ServiceProvider
             return new Mpgs(
                 config('mpgs.api_url'),
                 config('mpgs.merchant_id'),
-                congif('mpgs.api_username'),
+                config('mpgs.api_username'),
                 config('mpgs.api_password'),
             );
         });

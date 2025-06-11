@@ -2,7 +2,7 @@
 
 namespace MpgsLaravel;
 
-use guzzlehttp\Client;
+use GuzzleHttp\Client;
 
 class Mpgs
 {
